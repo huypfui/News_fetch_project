@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+  src: url();
+}
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30svh;
+}
+header h1 {
+  margin-bottom: 20px;
+}
+header section {
+  margin-bottom: 10px;
+}
+header button {
+  background-color: chocolate;
+  color: white;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+  width: 10svw;
+  height: 5svh;
+}
+header input {
+  border: 2px solid burlywood;
+  border-radius: 10px;
+  text-align: center;
+  width: 20svw;
+  height: 3svh;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+div {
+  border: 5px solid burlywood;
+  border-radius: 10px;
+  width: 20svw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+div img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+div p {
+  margin-bottom: 20px;
+}
+div button {
+  background-color: chocolate;
+  color: white;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
